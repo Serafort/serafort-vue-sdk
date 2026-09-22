@@ -2,6 +2,7 @@
   "name": "@serafort/vue",
   "version": "0.1.0",
   "type": "module",
+  "packageManager": "pnpm@10.32.1",
   "description": "Vue 3 Composition API composables, Pinia integration, and Vue Router guards for Serafort IAM.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
