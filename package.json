@@ -26,7 +26,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@serafort/core": "link:../Javascript"
+    "@serafort/core": "github:Serafort/serafort-javascript-sdk#5a4964fc41f08754c174d29b4af73074df17a9df"
   },
   "peerDependencies": {
     "pinia": ">=2.1.0",
@@ -49,5 +49,10 @@
     "vitest": "^2.1.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@serafort/core"
+    ]
   }
 }
